@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* 
+ * File:   rwd_framework.css
+ * Author: Benjamin Silveston
+ *
+ * Created on 30 January 2014, 15:51
+ * 
+ * CSS Document to help enable the Reponsive Website Design (RWD) framework into the website and all its web pages
+ */
+@media screen and (max-width: 500px) {
+	
+	.photo_info {
+		display:none; /* Do not display text when window size is under 500px */
+	}
+	.menu {
+		width:25%;
+		border-bottom:1px solid #CCCCCC;
+	}
+}
+

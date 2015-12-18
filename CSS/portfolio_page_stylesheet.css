@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* 
+ * File:   portfolio_page_stylesheet.css
+ * Author: Benjamin Silveston
+ *
+ * Created on 02 December 2013, 13:12
+ * 
+ * CSS Document for the porfolio_page.html and portfolio_page.php files
+ */
+
+body {
+	background-image:url(../gallery/landscapes_other_locations/landscape%202%20web.jpg);
+	background-position:center top;
+	background-repeat:repeat-y;
+}
+
+.header h3 {
+	font-family:Calibri;
+	font-size:24px;
+	font-style:italic;
+	color:#000000;
+}
+
+.user_account p {
+	font-family:Calibri;
+	font-size:16px;
+}
+
+.user_account a {
+	font-family:Calibri;
+	font-size:16px;
+	font-style:italic;
+	color:#000000;
+}
+
+.menu {
+	background-color:#000000;
+}
+
+.menu a {
+	font-family:Calibri;
+	font-size:18px; 	
+	color:#CCCCCC;
+	text-decoration:none;
+}
+
+#portfolio_page_link {
+	color:#009900;
+}
+
+.content_intro {
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:24px;
+	color:#000000;
+	font-style:italic;
+	outline-style:solid;
+}
+
+.content {
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	column-gap:20px;
+	-moz-column-gap:20px; /* '-moz' = Firefox */
+	-webkit-column-gap:20px; /* '-webkit' = Safari and Chrome */
+	column-count:4;
+	-moz-column-count:4; 
+	-webkit-column-count:4;
+	font-family:Calibri;
+	font-size:18px;
+	color:#000000;
+}
+
+.photo_section {
+	opacity:0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier */
+	background-color:#C9C9C9; 
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#000000;
+	padding-bottom:30px;
+}
+
+.photos {
+	border-style: 1px solid black;
+	max-width:100%;
+	height:auto;
+	float:right;
+	width:110px;
+	height:90px;
+	margin:5px;
+	overflow:auto;
+}
+
+.photo_info {
+	background-color:#C9C9C9; 
+	border:1px solid;
+	border-radius:10px;
+	color:#000000;
+	font-family:Calibri;
+	font-size:18px;
+	float:right;
+}
+
+.external_links {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border:1px solid;
+	border-radius:10px; 
+	font-family:Calibri;
+	font-size:18px;
+	color:#000000;
+	overflow:auto; /* Enable specific web-browser to automatically set and arrange overlapping elements within the browser window */
+}
+
+.external_links a {
+	font-family:Calibri;
+	font-size:18px;
+	color:#3300CC;
+}
+
+.external_links ul li {
+	font-style:italic;
+}
+
+.footer {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border:1px solid;
+	border-radius:10px; 
+}
+
+#copyright {
+	background-color:#C9C9C9;
+	border-radius:10px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index:-1;
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}
+
+#credits {
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}

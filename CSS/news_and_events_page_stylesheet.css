@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* 
+ * File:  news_and_events_page_stylesheet.css
+ * Author: Benjamin Silveston
+ *
+ * Created on 02 December 2013, 13:12
+ * 
+ * CSS Document for the news_and_events_page.html and news_and_events_page.php files
+ */
+
+body {
+	background-image:url(../gallery/landscapes_other_locations/landscape%202%20web.jpg);
+	background-position:center top;
+	background-repeat:repeat-y;
+}
+
+.menu {
+	background-color:#000000;
+}
+
+.menu a {
+	font-family:Calibri;
+	font-size:18px; 	
+	color:#CCCCCC;
+	text-decoration:none;
+}
+
+.content_intro {
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:24px;
+	color:#000000;
+	font-style:italic;
+	outline-style:solid;
+}
+
+#news_and_events_page_link {
+	color:#009900;
+}
+
+.user_account p {
+	font-family:Calibri;
+	font-size:16px;
+}
+
+.user_account a {
+	font-family:Calibri;
+	font-size:16px;
+	font-style:italic;
+	color:#000000;
+}
+.social_media {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border:1px solid;
+	border-radius:10px; 
+}
+
+.social_media h4 {
+	font-family:Calibri;
+	font-size:24px;
+	font-style:italic;
+	color:#000000;
+}
+
+.social_media p {
+	font-family:Calibri;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+.events h4 {
+	font-family:Calibri;
+	font-size:24px;
+	color:#000000;
+	font-style:italic;
+}
+
+.events {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#000000;
+}
+
+.events a {
+	font-family:Calibri;
+	font-size:18px;
+	color:#3300CC;
+}
+
+.footer {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;		
+}
+
+#tweets {
+	font-family:Calibri;
+	font-size:18px;
+	color:#3300CC;
+}
+
+#copyright {
+	background-color:#C9C9C9;
+	border-radius:10px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index:-1;
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}
+
+#credits {
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}

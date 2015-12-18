@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* 
+ * File:   view_account_details_page_stylesheet.css
+ * Author: Benjamin Silveston
+ *
+ * Created on 08 May 2014, 10:34
+ * 
+ * CSS Document for the view_account_details_page.php file
+ */
+
+body {
+	background-image:url(../gallery/landscapes_other_locations/landscape%202%20web.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+.menu {
+	background-color:#000000;
+}
+
+.menu a {
+	font-family:Calibri;
+	font-size:18px; 	
+	color:#CCCCCC;
+	text-decoration:none;
+}
+
+#your_account_page_link {
+	color:#009900;
+}
+
+.view_account_form {
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:24px;
+	color:#000000;
+	font-style:italic;
+	outline-style:solid;
+}
+
+.content {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */ 
+	padding-bottom:10px;
+	border:2px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#000000;
+}
+
+.content h3 {
+	font-family:Calibri;
+	font-size:24px;
+	font-style:italic; 	
+	color:#000000;
+}
+
+.content a {
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;	
+}
+
+.view_account_form {
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index:-1;
+	padding-bottom:10px; 	
+}
+
+.results {
+	background-color:#C9C9C9;
+	border:1px solid;
+	border-radius:10px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index:-1;
+	padding-bottom:10px; 	
+}
+
+.footer {
+	background-color:#C9C9C9;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */ 
+	border:2px solid;
+	border-radius:10px;
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}
+
+#copyright {
+	background-color:#C9C9C9;
+	border-radius:10px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index:-1;
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}
+
+#credits {
+	font-family:Calibri;
+	font-size:14px;
+	color:#000000;
+}

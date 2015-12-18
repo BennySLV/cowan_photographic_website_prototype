@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--Link to accompanying stylesheet-->
+<link type="text/css" rel="stylesheet" href="../CSS/user_register_page_stylesheet.css" />
+
+<!--Enable jQuery functionality on website - will load jQuery library into HTML page-->
+<script src="../JavaScript/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+<!--Load jQuery UI plug-in and features into website-->
+<script type="text/javascript" src="../JavaScript/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="../JavaScript/jquery-ui-1.10.3.custom.js"></script>
+
+<!--Link to accompanying JavaScript/jQuery document-->
+<script type="text/javascript" src="../JavaScript/user_register_page_javascript_jquery.js"></script>
+<title>Register | Cowan Photographic</title>
+</head>
+
+<body>
+	<!--Menu banner-->
+    <div class="menu" align="center">
+        <a id="home_page_link" align="center" valign="top" href="home_page.html"><strong>Home</strong></a>
+        <a id="about_me_page_link" align="center" valign="top" href="about_me_page.html"><strong>About Me</strong></a>
+        <a id="portfolio_page_link" align="center" valign="top" href="portfolio_page.html"><strong>Portfolio</strong></a>
+        <a id="news_and_events_page_link" align="center" valign="top" href="news_and_events_page.html"><strong>News and Events</strong></a>
+        <a id="shop_page_link" align="center" valign="top" href="shop_page.html"><strong>Shop</strong></a>
+        <a id="forum_page_link" align="center" valign="top" href="forum_page.html"><strong>Forum</strong></a>
+        <a id="contact_page_link" align="center" valign="top" href="contact_page.html"><strong>Contact</strong></a>
+    </div>
+	 <br />
+	
+	<div class="header">
+		<h3 align="center"><strong>Register</strong></h3>
+	</div>
+	<br />
+<div class="form_area" align="center">
+<form class="register_form" action="welcome_registered_user.php" method="post">
+<fieldset> <legend id="register_page_info">Please fill out the following form below to register with Cowan Photographic:</legend>
+<p><span class="mandatory_fields">Fields marked "*" are mandatory.</span></p>
+<p><label>Username: <input id="username" type="text" maxlength="10" name="username"></label> <span id="man_username">*</span></p>
+<p><label>Forename: <input id="forename" type="text" maxlength="10" name="firstname"></label> <span id="man_firstname">*</span></p>
+<p><label>Surname: <input id="surname" type="text" maxlength="20" name="surname"></label></p>
+<p><label>E-mail: <input id="email" type="text" maxlength="40" name="email"></label> <span id="man_email">*</span></p>
+<p><label>Website: <input id="website" type="text" maxlength="40" name="website"></label></p>
+<p><label>Gender: <input id="gender_m" type="radio" name="gender_m" value="male">Male</label> 
+<label><input id="gender_f" type="radio" name="gender_f" value="femaie">Female</label> <span id="man_gender">*</span></p>
+<p align="center"><span>For password advice, double-click the two boxes below.</span></p>
+<p><label>Create Password: <input id="create_password" type="password" maxlength="8" name="create_password"></label> <span id="man_create_password">*</span></p>
+<p><label>Confirm Password: <input id="confirm_password" type="password" maxlength="8" name="confirm_password"></label> <span id="man_confirm_password">*</span></p>
+<p align="center"><input type="submit" name="submit" value="Submit"></p>
+</fieldset>
+</form>
+</div>
+<div class="sign_in_page_link_area">
+	<p id="sign_in_page_info">Already have an account?<br/><a id="sign_in_page_link" href="user_sign_in_page.html">Sign-in</a></p>
+</div>
+<br />
+<div class="footer">
+	<p id="copyright"><strong>Copyright &copy; <?php echo date("Y"); // insert current calendar year ?>
+	NCOWAN<br/> All Rights Reserved.</strong></p>
+</div>
+</body>
+</html>
